@@ -13,6 +13,153 @@
 *
 * ======================================================= */
 
+
+/* detailed services */
+
+.service-detail h1 {
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* end of detailed services */
+
+
+/* vertical Tab */
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.vertical-tab {
+    font-family: 'Signika', sans-serif;
+    display: table;
+}
+
+.vertical-tab .nav-tabs {
+    display: table-cell;
+    width: 28%;
+    min-width: 28%;
+    vertical-align: top;
+    border: none;
+}
+
+.vertical-tab .nav-tabs li {
+    float: none;
+    vertical-align: top;
+}
+
+.vertical-tab .nav-tabs li a {
+    color: #fff;
+    background-color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 18px 12px;
+    margin: 0 0 10px 0;
+    border-radius: 5px 0 0 20px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.vertical-tab .nav-tabs li a:hover,
+.vertical-tab .nav-tabs li.active a,
+.vertical-tab .nav-tabs li.active a:hover {
+    color: #fff;
+    background-color: #104E8B;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.vertical-tab .nav-tabs li a:before,
+.vertical-tab .nav-tabs li a:after {
+    content: '';
+    background: #fff;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.vertical-tab .nav-tabs li a:after {
+    left: auto;
+    right: 0;
+}
+
+.vertical-tab .nav-tabs li a:hover:before,
+.vertical-tab .nav-tabs li.active a:before,
+.vertical-tab .nav-tabs li a:hover:after,
+.vertical-tab .nav-tabs li.active a:after {
+    width: 100%;
+    opacity: 0;
+}
+
+.vertical-tab .tab-content {
+    color: #fff;
+    background: #104E8B;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 12px 15px 12px 25px;
+    border-radius: 0 20px 20px 5px;
+    display: table-cell;
+    position: relative;
+}
+
+.vertical-tab .tab-content h3 {
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+@media only screen and (max-width: 479px) {
+    .vertical-tab .nav-tabs {
+        width: 100%;
+        display: block;
+        border: none;
+    }
+    .vertical-tab .nav-tabs li a {
+        padding: 14px 20px 12px;
+        margin: 0 0 13px;
+        border-radius: 5px 20px;
+    }
+    .vertical-tab .tab-content {
+        padding: 20px 15px 10px;
+        border-radius: 5px 20px;
+        display: block;
+    }
+    .vertical-tab .tab-content h3 {
+        font-size: 18px;
+    }
+}
+
+
+/* end of vertical tab */
+
+.service-btn {
+    padding: 8px;
+    background: #104E8B;
+    border: 1px solid #104E8B;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.service-btn:hover {
+    color: white !important;
+    font-weight: 700;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
 body {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 300;
@@ -206,9 +353,9 @@ figure {
 
 .colorlib-nav ul li.has-dropdown .dropdown {
     width: 140px;
-    -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
     z-index: 1002;
     visibility: hidden;
     opacity: 0;
@@ -216,7 +363,7 @@ figure {
     top: 40px;
     left: 0;
     text-align: left;
-    background: #000;
+    background: rgba(255, 255, 255, 0.692);
     padding: 20px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -253,7 +400,7 @@ figure {
 .colorlib-nav ul li.has-dropdown .dropdown li a {
     padding: 2px 0;
     display: block;
-    color: #999999;
+    color: #0D4F8B;
     line-height: 1.2;
     text-transform: none;
     font-size: 13px;
@@ -262,6 +409,8 @@ figure {
 
 .colorlib-nav ul li.has-dropdown .dropdown li a:hover {
     color: #fff;
+    text-decoration: underline;
+    text-decoration-light: #0D4F8B;
 }
 
 .colorlib-nav ul li.has-dropdown:hover a,
