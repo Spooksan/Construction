@@ -261,6 +261,20 @@ figure {
     }
 }
 
+.colorlib-nav .top-menu h1 {
+    color: #104E8B;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px darkslategrey;
+    padding-left: 27px;
+    float: left;
+}
+
+.colorlib-nav .top-menu h1:hover {
+    color: white;
+}
+
 .colorlib-nav .top-menu {
     padding: 40px 30px;
     background: white;
@@ -1863,7 +1877,7 @@ input[type="text"] {
     -moz-osx-font-smoothing: grayscale;
     content: "\e0c5";
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.2);
+    /* color: rgba(255, 255, 255, 0.2); */
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
