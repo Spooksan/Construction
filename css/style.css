@@ -263,6 +263,7 @@ figure {
 
 .colorlib-nav .top-menu {
     padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 @media screen and (max-width: 768px) {
@@ -276,7 +277,7 @@ figure {
 
 .rainbow-logo img {
     float: left;
-    max-width: 100px;
+    max-width: 70px;
 }
 
 .rainbow-logo span {
@@ -288,6 +289,7 @@ figure {
     padding-left: 15px;
     padding-top: 5px;
     color: white;
+    text-shadow: 1px 2px 3px darkslategrey;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -338,6 +340,7 @@ figure {
     font-weight: 700;
     padding: 30px 12px;
     color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 2px 3px darkslategrey;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
