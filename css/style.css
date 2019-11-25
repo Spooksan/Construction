@@ -1819,10 +1819,12 @@ input[type="text"] {
 
 #colorlib-offcanvas a {
     color: #104E8B;
+    text-shadow: 1px 2px 3px darkslategrey;
+    font-weight: 400;
 }
 
 #colorlib-offcanvas a:hover {
-    color: #104E8B;
+    font-weight: 500;
 }
 
 #colorlib-offcanvas ul {
