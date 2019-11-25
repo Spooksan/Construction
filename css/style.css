@@ -263,7 +263,7 @@ figure {
 
 .colorlib-nav .top-menu {
     padding: 40px 30px;
-    background: rgba(255, 255, 255, 0.4);
+    background: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -288,15 +288,15 @@ figure {
     display: grid;
     padding-left: 15px;
     padding-top: 5px;
-    color: white;
     text-shadow: 1px 2px 3px darkslategrey;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    color: #104E8B;
 }
 
 .rainbow-logo :hover {
-    color: #104E8B;
+    color: white;
 }
 
 
@@ -336,18 +336,18 @@ figure {
 
 .colorlib-nav ul li a {
     position: relative;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 700;
     padding: 30px 12px;
-    color: rgba(255, 255, 255, 1);
     text-shadow: 1px 2px 3px darkslategrey;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    color: #104E8B;
 }
 
 .colorlib-nav ul li a:hover {
-    color: #104E8B;
+    color: rgba(255, 255, 255, 1);
 }
 
 .colorlib-nav ul li.has-dropdown {
@@ -355,7 +355,7 @@ figure {
 }
 
 .colorlib-nav ul li.has-dropdown .dropdown {
-    width: 140px;
+    width: 155px;
     -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
     box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 1);
@@ -406,7 +406,7 @@ figure {
     color: #0D4F8B;
     line-height: 1.2;
     text-transform: none;
-    font-size: 13px;
+    font-size: 20px;
     letter-spacing: 0;
 }
 
@@ -1784,7 +1784,8 @@ input[type="text"] {
     position: absolute;
     z-index: 1901;
     width: 270px;
-    background: black;
+    background: white;
+    color: #104E8B;
     top: 0;
     right: 0;
     top: 0;
@@ -1817,11 +1818,11 @@ input[type="text"] {
 }
 
 #colorlib-offcanvas a {
-    color: rgba(255, 255, 255, 0.5);
+    color: #104E8B;
 }
 
 #colorlib-offcanvas a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #104E8B;
 }
 
 #colorlib-offcanvas ul {
@@ -1946,7 +1947,7 @@ input[type="text"] {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #252525;
+    background: #104E8B;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
@@ -1966,13 +1967,13 @@ input[type="text"] {
 }
 
 .colorlib-nav-toggle.colorlib-nav-white>i {
-    color: #fff;
-    background: #fff;
+    color: #104E8B;
+    background: #104E8B;
 }
 
 .colorlib-nav-toggle.colorlib-nav-white>i::before,
 .colorlib-nav-toggle.colorlib-nav-white>i::after {
-    background: #fff;
+    background: #104E8B;
 }
 
 .colorlib-nav-toggle i::before {
