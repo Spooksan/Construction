@@ -1044,6 +1044,12 @@ figure {
     font-weight: 700;
 }
 
+.project .desc p2 {
+    font-weight: 600;
+    color: black;
+    padding-left: 60px;
+}
+
 .project .desc p {
     margin-bottom: 0;
     color: gray;
@@ -1055,6 +1061,7 @@ figure {
     font-weight: 700;
     position: relative;
     padding-left: 70px;
+    padding-bottom: 5px;
     line-height: 28px;
     display: block;
 }
